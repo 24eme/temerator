@@ -42,6 +42,7 @@ h1{
   border: 1px solid black;
   width: 30%;
   height: 50px;
+  background-color: #C4B190;
 }
 .choix{
   float: left;
@@ -64,9 +65,12 @@ textarea{
 .bouton{
   margin-left: 30%;
 }
+
 .bouton button{
   width: 200px;
-  height: 30px;
+  height: 30px; 
   margin: auto;
+  margin-left: 20%;
+  margin-bottom: 10px;
 
 }
