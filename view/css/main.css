@@ -45,21 +45,22 @@ h1{
   background-color: #C4B190;
 } */
 
-.resultat{
+span.resultat{
   
   border: 1px solid black;
   background-color: #C4B190;
-  margin: 25px;
+  /* margin: 25px; */
   
 }
-.choix{
+.choix textarea{
   /* float: left; */
   /* margin-top: 5%; */
   border:3px solid #C4B190;
   border-radius: 20px;
+  /* margin: auto; */
   /* width: 400px; */
-  /* height: 400px;
-  overflow: hidden; */
+   /* height: 400px;   */
+  /* overflow: hidden;  */
 }
 .choix p{
   text-align: center;
@@ -68,15 +69,16 @@ h1{
 textarea{
   padding: 10px;
   width: 100% ;
-  height: 100%;
+  /* height: 100%; */
 }
 .bouton button{
   
   margin-top:50px ;
-  /* margin-left: 30%; */
+
 }
 .bouton{
   text-align: center;
+  margin-left: 30%;
 }
 
 /*.bouton button{
