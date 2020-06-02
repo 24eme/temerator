@@ -4,14 +4,8 @@ body,html{
   width: 100%;
   /* margin:0;
   padding:0;
-<<<<<<< HEAD
   scroll-behavior: smooth; */
 } 
-=======
-  scroll-behavior: smooth;
-  background-color: #fcfcfc;
-}
->>>>>>> 3cd3135a14087bb8f0aca13f21f6f64783006563
 *{
   font-family: Arial;
 }
@@ -63,15 +57,9 @@ h1{
   /* margin-top: 5%; */
   border:3px solid #C4B190;
   border-radius: 20px;
-<<<<<<< HEAD
   /* width: 400px; */
   /* height: 400px;
   overflow: hidden; */
-=======
-  width: 40%;
-  height: 70%;
-  overflow: hidden;
->>>>>>> 3cd3135a14087bb8f0aca13f21f6f64783006563
 }
 .choix p{
   text-align: center;
@@ -91,15 +79,9 @@ textarea{
   text-align: center;
 }
 
-<<<<<<< HEAD
 /*.bouton button{
    width: 200px;
   height: 30px; 
-=======
-.bouton button{
-  width: 200px;
-  height: 30px;
->>>>>>> 3cd3135a14087bb8f0aca13f21f6f64783006563
   margin: auto;
   margin-left: 20%;
   margin-bottom: 10px;
