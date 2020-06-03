@@ -35,16 +35,17 @@ h1{
   font-style: italic;
   font-size:1em;
 }
+/*
 .row{
   margin: 5%;
-}
+}*/
 .resultat{
-  display: inline-block;
+ /* display: inline-block;
   margin-left:20%;
-  margin-top: 15%;
+  margin-top: 15%;*/
   border: 1px solid black;
-  width: 30%;
-  height: 50px;
+  /*width: 30%;
+  height: 50px;*/
   text-align: center;
   padding: 10px;
   background-color: #C4B190;
@@ -55,13 +56,13 @@ h1{
   font-style: italic;
 }
 .choix{
-  float: left;
-  margin-top: 5%;
+/*: float: left;
+  margin-top: 5%;*/
   border:3px solid #C4B190;
   border-radius: 20px;
-  width: 400px;
+ /* width: 400px;
   height: 400px;
-  overflow: hidden;
+  overflow: hidden;*/
 }
 .choix p{
   text-align: center;
@@ -69,20 +70,24 @@ h1{
 }
 textarea{
   padding: 10px;
-  width: 100% ;
-  height: 100%;
+ /* width: 100% ;
+  height: 100%;*/
 }
+/*
 .bouton{
   margin-left: 30%;
-}
+}*/
+
+/*
 .bouton button{
   width: 200px;
   height: 30px;
   margin-left:20%;
   margin-top:5%;
 
-}
+}*/
 
+/*
 @media screen and (max-width:680px){
   .choix{
     width:100%;
@@ -103,4 +108,4 @@ textarea{
 
 
 
-}
+}*/

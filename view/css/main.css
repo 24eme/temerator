@@ -33,34 +33,34 @@ h1{
   /* margin: auto; */
   text-align: center;
 }
-/* .row{
-  margin: 5%;
-} */
-/* .resultat{
-  display: inline-block;
-  margin:10%;
-  border: 1px solid black;
-  width: 30%;
-  height: 50px;
-  background-color: #C4B190;
-} */
 
-span.resultat{
-  
+
+
+
+ .return{
+   margin-top:50px ;
+   text-align: center;
+   
+
+ }
+
+div .resultat{
   border: 1px solid black;
   background-color: #C4B190;
-  /* margin: 25px; */
+   padding: 10px 20px;
+   border-radius: 20px;
+ 
+  
+  
+
   
 }
+
 .choix textarea{
-  /* float: left; */
-  /* margin-top: 5%; */
+
   border:3px solid #C4B190;
   border-radius: 20px;
-  /* margin: auto; */
-  /* width: 400px; */
-   /* height: 400px;   */
-  /* overflow: hidden;  */
+ 
 }
 .choix p{
   text-align: center;
@@ -69,25 +69,18 @@ span.resultat{
 textarea{
   padding: 10px;
   width: 100% ;
-  /* height: 100%; */
+ 
 }
 .bouton button{
-  
+  text-align: center;
   margin-top:50px ;
 
 }
-.bouton{
+.bouton {
   text-align: center;
-  margin-left: 30%;
+  
 }
 
-/*.bouton button{
-   width: 200px;
-  height: 30px; 
-  margin: auto;
-  margin-left: 20%;
-  margin-bottom: 10px;
-   */
 
 
 

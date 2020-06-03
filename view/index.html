@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temerator</title>
-    <link type="text/css" rel="stylesheet" href="css/main.css" />
-    <link rel="shortcut icon" href="/img/favicon.ico" />
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-     <script src="js/script.js"></script>
-  </head>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temerator</title>
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <link rel="shortcut icon" href="/img/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="js/script.js"></script>
+</head>
 
 
 <body>
-<div class="container">
-      <div class="header">
-        <h1>Temerator<h1>
+  <div class="container">
+    <div class="header">
+      <h1>Temerator<h1>
+    </div>
+
+    <!-- <div class="slogan"> -->
+    <div class="col-sm-12 slogan">
+      <p> Un site de générateur aléatoire</p>
+      <!-- <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+    </div>
+
+    <!-- <div class="choix" > -->
+    <div class="row">
+
+      <div class="col-sm-6 choix">
+
+        <p>Veuillez saisir un choix par ligne</p>
+
+
+        <textarea id="textarea" rows="12"></textarea>
+
+
+
+
       </div>
+      <!-- <div class="content"> -->
+      <div class="col-sm-3  return offset-sm-2">
+        <!-- <div class="resultat"> -->
 
-        <!-- <div class="slogan"> -->
-        <div class="col-sm-12 slogan">
-          <p > Un site de générateur aléatoire</p>
-          <!-- <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
-        </div>
-
-          <!-- <div class="choix" > -->
-            <div class="row">
-
-              <div class="col-sm-6 choix">
-                 
-                    <!-- <p>Veuillez saisir un choix par ligne</p> -->
-
-
-                  <textarea   id = "textarea" rows="12"></textarea>
-               
-              
-
-              
-              </div>
-            <!-- <div class="content"> -->
-                <div class="col-sm-3 offset-sm-2 ">
-                  <!-- <div class="resultat"> -->
-
-                    <span class="resultat" id="resultat">
-                      Résultat
-                    <!-- <span id="resultat">
+        <span class="resultat" id="resultat">
+          Résultat
+          <!-- <span id="resultat">
                         Résultat -->
 
-                    </span>
-                    
-                </div>
+        </span>
 
-                <!-- <div class="col-sm-12 button justify-content-center">
+      </div>
+
+      <!-- <div class="col-sm-12 button justify-content-center">
                   <button type="submit">Générer</button>
                   <button type="submit">Reinitialiser</button>
                 </div> -->
 
-            </div>
-              <!-- <div class="bouton"> -->
-              <div class="col-sm bouton ">
-                <button type="submit" onclick="Generate()">Générer</button>
-                    <button type="submit" onclick="Reinitialiser()">Reinitialiser</button>
-              </div>
+    </div>
+    <!-- <div class="bouton"> -->
+    <div class="col-sm-6 offset-sm-6 bouton">
+      <button type="submit" onclick="Generate()">Générer</button>
+      <button type="submit" onclick="Reinitialiser()">Reinitialiser</button>
+    </div>
 
 
 
 
 
-            </div>
+  </div>
 
 
 
 
-      </div>
+  </div>
 
 
-</div>
+  </div>
 
-  </body>
+</body>
 
-  </html>
+</html>
